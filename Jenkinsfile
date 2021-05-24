@@ -13,6 +13,7 @@ stage ('Build')
 {
 sh "${mavenHome}/bin/mvn clean package"
 }
+//commented for testing purpose
 /*
 stage	('SonarQubeReport')
 {
